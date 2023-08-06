@@ -43,7 +43,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    overflow-x: hidden;
+    max-height: 896px;
   }
 
   nav h2 {
