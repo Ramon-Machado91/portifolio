@@ -43,7 +43,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    
+  }
+
+  body .body-index{
     overflow-x: hidden;
+    overflow-y: hidden;
   }
 
   nav h2 {
