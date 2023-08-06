@@ -92,7 +92,7 @@
   }
 
   .txt-sobre {
-    height: 350px;
+    height: 750px;
     width: 350px;
   }
 
@@ -101,7 +101,7 @@
   }
 
   .txt-sobre p {
-    font-size: 9px;
+    font-size: 14px;
     padding: 0;
     margin-left: 0px;
   }
