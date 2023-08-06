@@ -1,0 +1,95 @@
+@media (max-width: 800px) {
+  .icon-menu .menu {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav a {
+    display: none;
+  }
+
+  #barra-menu {
+    height: 100vh;
+  }
+
+  .c-icon {
+    background-color: rgb(189, 8, 8);
+    color: white;
+    text-transform: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 5px;
+    border-radius: 30px;
+    width: 130px;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .esconder {
+    display: none;
+  }
+
+  .c-icon:hover {
+    transform: scale(1.1);
+  }
+}
+
+@media (max-width: 460px) {
+  body {
+    background-image: url(../imagens/background-mobile.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x: hidden;
+  }
+
+  nav h2 {
+    font-size: 35px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  /* Sobre */
+
+  .main-sobre {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .txt-sobre {
+    height: 350px;
+    width: 350px;
+  }
+
+  .txt-sobre h2 {
+    font-size: 30px;
+  }
+
+  .txt-sobre p {
+    font-size: 9px;
+    padding: 0;
+    margin-left: 0px;
+  }
+
+  /* Projetos */
+
+  .album-projetos {
+    margin-right: 0px;
+  }
+
+  /* Habilidadeds */
+
+  .habilidades {
+    width: 340px;
+    height: 600px;
+  }
+
+  .habilidades p {
+    padding-bottom: 20px;
+  }
+}
