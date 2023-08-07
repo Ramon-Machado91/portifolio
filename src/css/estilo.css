@@ -382,18 +382,18 @@ ul.album-projetos li#foto03 {
   background: url("../imagens/box-shadow.gif") no-repeat;
 }
 
-/* ul.album-projetos li#foto04 {
-  background: url("../imagens/breve.png") no-repeat;
+ul.album-projetos li#foto04 {
+  background: url("../imagens/em-breve.png") no-repeat;
 }
 
-ul.album-projetos li#foto05 {
+/* ul.album-projetos li#foto05 {
   background: url("../imagens/breve.png") no-repeat;
 }
 
 ul.album-projetos li#foto06 {
   background: url("../imagens/breve.png") no-repeat;
-}
- */
+} */
+
 /*Estilização Menu Habilidade*/
 .titulo-habilidades {
   color: rgb(233, 227, 227);
