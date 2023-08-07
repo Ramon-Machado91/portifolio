@@ -1,5 +1,12 @@
+@media (max-width:1020px){
+  body{
+    overflow:visible;
+  }
+}
+
 @media (max-width: 800px) {
-  .icon-menu .menu {
+  
+.icon-menu .menu {
     display: block;
   }
 
