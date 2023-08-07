@@ -344,8 +344,8 @@ ul.album-projetos li:hover span {
 
 ul.album-projetos li {
   float: left;
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 150px;
   margin: 5px;
   border: 5px solid rgb(51, 48, 48);
   border-radius: 10px;
@@ -371,57 +371,27 @@ ul.album-projetos li:hover {
 }
 
 ul.album-projetos li#foto01 {
-  background: url("../imagens/breve.png") no-repeat;
-}
-
-ul.album-projetos li#foto01:hover {
-  background-position: 0px 0px;
-  background-size: 200px 200px;
+  background: url("../imagens/attorney.gif") no-repeat;
 }
 
 ul.album-projetos li#foto02 {
-  background: url("../imagens/breve.png") no-repeat;
-}
-
-ul.album-projetos li#foto02:hover {
-  background-position: 0px 0px;
-  background-size: 200px 200px;
+  background: url("../imagens/god-of-war.gif") no-repeat;
 }
 
 ul.album-projetos li#foto03 {
-  background: url("../imagens/breve.png") no-repeat;
-}
-
-ul.album-projetos li#foto03:hover {
-  background-position: 0px 0px;
-  background-size: 200px 200px;
+  background: url("../imagens/box-shadow.gif") no-repeat;
 }
 
 ul.album-projetos li#foto04 {
   background: url("../imagens/breve.png") no-repeat;
 }
 
-ul.album-projetos li#foto04:hover {
-  background-position: 0px 0px;
-  background-size: 200px 200px;
-}
-
 ul.album-projetos li#foto05 {
   background: url("../imagens/breve.png") no-repeat;
 }
 
-ul.album-projetos li#foto05:hover {
-  background-position: 0px 0px;
-  background-size: 200px 200px;
-}
-
 ul.album-projetos li#foto06 {
   background: url("../imagens/breve.png") no-repeat;
-}
-
-ul.album-projetos li#foto06:hover {
-  background-position: 0px 0px;
-  background-size: 200px 200px;
 }
 
 /*Estilização Menu Habilidade*/
