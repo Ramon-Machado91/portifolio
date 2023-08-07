@@ -13,7 +13,7 @@ body {
   height: 100vh;
   width: 100vw;
   color: white;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 * {
@@ -33,9 +33,10 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 45px;
+  padding: 2.8125rem;
   padding-left: 8%;
   padding-right: 8%;
+  animation: surgir 1s;
 }
 
 nav h2 {
@@ -50,7 +51,7 @@ span {
 
 nav ul li {
   display: inline;
-  margin: 0 20px;
+  margin: 0 1.25rem;
   list-style-type: none;
 }
 
@@ -64,7 +65,7 @@ nav ul li a {
 
 nav ul li a:hover {
   color: var(--primarycolor);
-  transform: scale(1.1);
+  transform: scale(1.3);
 }
 
 .btn {
@@ -72,8 +73,8 @@ nav ul li a:hover {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  padding: 10px 10px;
-  border-radius: 30px;
+  padding: 0.625rem 0.625rem;
+  border-radius: 1.875rem;
   transition: transform 1s;
 }
 
@@ -101,8 +102,8 @@ aside {
 .icon-menu .menu {
   font-size: 50px;
   color: var(--primarycolor);
-  margin-top: 15px;
-  margin-right: 15px;
+  margin-top: 0.9375rem;
+  margin-right: 0.9375rem;
   display: none;
   z-index: 0;
   position: relative;
@@ -117,25 +118,25 @@ aside {
 }
 
 #barra-menu .close-icon {
-  font-size: 50px;
+  font-size: 3.125rem;
   color: var(--primarycolor);
-  margin-top: 13px;
-  margin-left: 120px;
+  margin-top: 0.8125rem;
+  margin-left: 7.5rem;
   position: relative;
   z-index: 1;
 }
 
 #barra-menu ul li {
   list-style: none;
-  padding: 15px;
-  margin-top: 30px;
-  font-size: 25px;
+  padding: 0.9375rem;
+  margin-top: 1.875rem;
+  font-size: 1.5625rem;
 }
 
 #barra-menu ul li a {
   color: white;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 0.9375rem;
   width: 100%;
   transition: 0.5s;
 }
@@ -147,38 +148,27 @@ aside {
 
 .c-icon {
   display: block;
-  margin-top: 120px;
-  margin-left: 25px;
-  margin-bottom: 20px;
+  margin-top: 7.5rem;
+  margin-left: 1.5625rem;
+  margin-bottom: 1.25rem;
   text-align: center;
-  gap: 15px;
+  gap: 0.9375rem;
   overflow: hidden;
 }
 
 /* Main */
 h1 {
   color: white;
-  margin: 20px 20px 20px;
+  margin: 1.25rem 1.25rem 1.25rem;
   font-size: min(5.208vw, 75px);
-  min-width: 605px;
+  min-width: 37.8125rem;
 }
 
 h1::after {
   content: "|";
-  margin-left: 5px;
+  margin-left: 0.3125rem;
   opacity: 1;
   animation: pisca 0.7s infinite;
-}
-
-@keyframes pisca {
-  0%,
-  100% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0;
-  }
 }
 
 h3 {
@@ -189,12 +179,14 @@ h3 {
   right: 2%;
   display: block;
   width: auto;
+  animation: surgir 6s;
 }
 
 h4 {
   color: white;
   letter-spacing: 2px;
   font-size: 20px;
+  animation: surgir 8s;
 }
 
 .contatos {
@@ -202,13 +194,13 @@ h4 {
   position: absolute;
   bottom: 0;
   right: 0;
-  margin-right: 100px;
-  margin-bottom: 100px;
+  margin-right: 6.25rem;
+  margin-bottom: 6.25rem;
 }
 
 .contatos i {
-  margin: 0 20px;
-  font-size: 30px;
+  margin: 0 1.25rem;
+  font-size: 1.875rem;
   color: white;
   transition: 0.3s;
 }
@@ -226,6 +218,7 @@ h4 {
   width: auto;
   height: auto;
   padding-bottom: 30px;
+  animation: surgir 3s;
 }
 
 .image-container {
@@ -233,14 +226,15 @@ h4 {
 }
 
 .background-sobre .imgBlackAndWhite {
-  width: 300px;
-  height: 380px;
+  width: 18.75rem;
+  height: 23.75rem;
   border-radius: 20px;
   border: 5px solid rgb(51, 48, 48);
   position: absolute;
-  transition: 1s;
   cursor: pointer;
-  margin-left: 10px;
+  transition: 3s;
+  margin-left: 0.625rem;
+  animation: surgir 3s;
 }
 
 .background-sobre .imgBlackAndWhite:hover {
@@ -248,36 +242,37 @@ h4 {
 }
 
 .background-sobre .imgColored {
-  width: 300px;
-  height: 380px;
-  border-radius: 20px;
-  border: 5px solid rgb(51, 48, 48);
+  width: 18.75rem;
+  height: 23.75rem;
+  border-radius: 1.25rem;
+  border: 0.3125rem solid rgb(51, 48, 48);
   cursor: pointer;
-  margin-left: 10px;
+  margin-left: 0.625rem;
+  animation: surgir 3s;
 }
 
 .txt-sobre {
-  width: 700px;
-  min-height: 500px;
-  border-radius: 20px;
-  margin-bottom: 20px;
-  padding: 10px;
+  width: 43.75rem;
+  min-height: 31.25rem;
+  border-radius: 1.25rem;
+  margin-bottom: 1.25rem;
+  padding: 0.625rem;
   background-color: rgba(24, 23, 23, 0.863);
-  border: 5px solid rgb(51, 48, 48);
+  border: 0.3125rem solid rgb(51, 48, 48);
   box-shadow: 1px 1px 3px white;
 }
 
 .txt-sobre h2 {
   color: rgb(233, 227, 227);
-  font-size: 75px;
+  font-size: 4.6875rem;
   text-transform: capitalize;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .txt-sobre h5 {
   color: rgb(245, 239, 239);
   letter-spacing: 2px;
-  font-size: 22px;
+  font-size: 1.375rem;
   margin-bottom: 25px;
   text-transform: capitalize;
 }
@@ -287,33 +282,22 @@ h4 {
   letter-spacing: 1px;
   line-height: 28px;
   font-size: 1.25vw;
-  padding: 10px;
+  padding: 0.625rem;
   text-align: justify;
 }
 
 .txt-sobre p::after {
   content: "|";
-  margin-left: 5px;
+  margin-left: 0.3125rem;
   opacity: 1;
   animation: pisca 0.7s infinite;
-}
-
-@keyframes pisca {
-  0%,
-  100% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0;
-  }
 }
 
 /*Estilização álbum projetos*/
 
 .container-projetos h2 {
   color: white;
-  font-size: 75px;
+  font-size: 4.6875rem;
   text-align: center;
 }
 
@@ -327,6 +311,7 @@ ul.album-projetos {
   height: 100%;
   list-style: none;
   margin-top: 50px;
+  animation: surgir 4s;
 }
 
 ul.album-projetos li span {
@@ -334,8 +319,8 @@ ul.album-projetos li span {
   color: #ffffff;
   text-shadow: 1px 1px 1px #000000;
   font-size: 9pt;
-  line-height: 370px;
-  padding: 5px;
+  line-height: 23.125rem;
+  padding: 0.3125rem;
   transition: 1s;
 }
 
@@ -345,15 +330,15 @@ ul.album-projetos li:hover span {
 
 ul.album-projetos li {
   float: left;
-  width: 350px;
-  height: 150px;
-  margin: 5px;
-  border: 5px solid rgb(51, 48, 48);
-  border-radius: 10px;
+  width: 21.875rem;
+  height: 9.375rem;
+  margin: 0.3125rem;
+  border: 0.3125rem solid rgb(51, 48, 48);
+  border-radius: 0.625rem;
   background-color: #ffffff;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
   background-position: 50% 50%;
-  background-size: 400px 400px;
+  background-size: 25rem 25rem;
   background-color: white;
   background-position: 0px 0px;
   background-size: 200px 200px;
@@ -393,7 +378,7 @@ ul.album-projetos li#foto05 {
 
 ul.album-projetos li#foto06 {
   background: url("../imagens/em-breve.png") no-repeat;
-} 
+}
 
 /*Estilização Menu Habilidade*/
 .titulo-habilidades {
@@ -408,6 +393,7 @@ ul.album-projetos li#foto06 {
   width: 100vw;
   display: flex;
   justify-content: center;
+  animation: surgir 3s;
 }
 
 .habilidades {
@@ -415,10 +401,10 @@ ul.album-projetos li#foto06 {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  max-width: 700px;
-  height: 450px;
-  border-radius: 20px;
-  padding: 30px;
+  max-width: 43.75rem;
+  height: 26.875rem;
+  border-radius: 1.25rem;
+  padding: 1.875rem;
   background-color: rgba(24, 23, 23, 0.863);
   border: 5px solid rgb(51, 48, 48);
   box-shadow: 1px 1px 3px white;
@@ -428,24 +414,46 @@ ul.album-projetos li#foto06 {
 .descricao-container {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 .habilidades p {
   display: flex;
   justify-content: center;
-  width: 300px;
-  height: 70px;
+  width: 18.75rem;
+  height: 4.375rem;
 }
 
 .icon-skills i {
-  margin: 30px 30px;
-  font-size: 60px;
-  margin-bottom: 40px;
+  margin: 1.875rem 1.875rem;
+  font-size: 3.75rem;
+  margin-bottom: 2.5rem;
   transition: 1s;
 }
 
 .icon-skills i:hover {
   transform: scale(1.2);
   color: var(--primarycolor);
+}
+
+/* animation */
+
+@keyframes pisca {
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes surgir {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
