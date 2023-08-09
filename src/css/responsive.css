@@ -47,10 +47,15 @@
 @media (max-width: 700px) {
   body {
   background-image: url(../imagens/background-mobile2\ \(2\).jpeg);
-  background-size: cover;
-  background-position: center;
+  background-color: rgb(20, 20, 20);
+  background-size:cover;
   background-repeat: no-repeat;
-  opacity:0.7;
+  
+  }
+
+  .background-main{
+    background-image: url(../imagens/background-site.png);
+    background-color:rgb(20, 20, 20);
   }
 
   .background{
