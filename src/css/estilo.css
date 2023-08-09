@@ -178,7 +178,6 @@ h3 {
   position: relative;
   right: 2%;
   display: block;
-  width: auto;
   animation: surgir 6s;
 }
 
@@ -429,6 +428,7 @@ ul.album-projetos li#foto06 {
   font-size: 3.75rem;
   margin-bottom: 2.5rem;
   transition: 1s;
+  animation-name: icons;
 }
 
 .icon-skills i:hover {
@@ -457,3 +457,5 @@ ul.album-projetos li#foto06 {
     opacity: 1;
   }
 }
+
+
