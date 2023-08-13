@@ -336,6 +336,8 @@ ul.album-projetos li span {
 
 ul.album-projetos li:hover span {
   opacity: 1;
+  background-color: #08080880;
+  border-radius: 10px;
 }
 
 ul.album-projetos li {
@@ -379,7 +381,7 @@ ul.album-projetos li#foto03 {
 }
 
 ul.album-projetos li#foto04 {
-  background: url("../imagens/em-breve.png") no-repeat;
+  background: url("../imagens/cartão\ de\ crédito.gif") no-repeat;
 }
 
 ul.album-projetos li#foto05 {
