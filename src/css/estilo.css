@@ -384,11 +384,38 @@ ul.album-projetos li#foto04 {
 }
 
 ul.album-projetos li#foto05 {
-  background: url("../imagens/em-breve.png") no-repeat;
+  background-color: var(--background-color);
 }
 
 ul.album-projetos li#foto06 {
-  background: url("../imagens/em-breve.png") no-repeat;
+  background-color: var(--background-color);
+}
+
+.emBreve{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emBreve p{
+  color:white;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.animation{
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: solid 8px var(--primarycolor);
+  border-right: 10px solid transparent;
+  animation: carregando 1.5s ease-out infinite;
+}
+
+.soon{
+  display: flex;
+  align-items: center;
 }
 
 /*Estilização Menu Habilidade*/
@@ -467,5 +494,15 @@ ul.album-projetos li#foto06 {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes carregando{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  100%{
+    transform: rotate(360deg);
   }
 }
