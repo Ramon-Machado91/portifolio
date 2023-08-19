@@ -243,7 +243,7 @@ h4 {
   width: auto;
   height: auto;
   padding-bottom: 30px;
-  animation: surgir 3s;
+  animation: surgir 4s;
 }
 
 .image-container {
@@ -259,7 +259,7 @@ h4 {
   cursor: pointer;
   transition: 3s;
   margin-left: 0.625rem;
-  animation: surgir 3s;
+  
 }
 
 .background-sobre .imgBlackAndWhite:hover {
@@ -273,7 +273,7 @@ h4 {
   border: 0.3125rem solid rgb(51, 48, 48);
   cursor: pointer;
   margin-left: 0.625rem;
-  animation: surgir 3s;
+  
 }
 
 .txt-sobre {
