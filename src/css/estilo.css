@@ -52,6 +52,7 @@ nav {
   padding-left: 8%;
   padding-right: 8%;
   animation: surgir 1s;
+  
 }
 
 nav h2 {
@@ -403,6 +404,10 @@ ul.album-projetos li#foto05 {
 }
 
 ul.album-projetos li#foto06 {
+  background: url(../imagens/conversor.moeda.gif) no-repeat;
+}
+
+ul.album-projetos li#foto07 {
   background-color: var(--background-color);
 }
 
