@@ -204,7 +204,7 @@ h3 {
   position: relative;
   right: 2%;
   display: block;
-  animation: surgir 6s;
+  animation: slideCima 3s ease-in-out;
 }
 
 h3 span {
@@ -515,6 +515,18 @@ ul.album-projetos li#foto07 {
     opacity: 0;
   }
   100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideCima{
+  0%{
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+
+  100%{
+    transform: translateY(0);
     opacity: 1;
   }
 }
