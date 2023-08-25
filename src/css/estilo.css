@@ -124,7 +124,6 @@ aside {
   align-items: center;
   font-size: 50px;
   color: var(--primarycolor);
-  background-color: #131313fd;
   width: 50px;
   height: 50px;
   border-radius: 10px;
@@ -253,6 +252,7 @@ h4 {
 .image-container {
   position: relative;
 }
+
 
 .background-sobre .imgBlackAndWhite {
   width: 18.75rem;
