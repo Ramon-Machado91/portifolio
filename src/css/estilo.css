@@ -7,7 +7,8 @@
 body {
   font-family: "Josefin Sans";
   background-image: url(../imagens/Black\ Light\ Backgrounds.jpg);
-  background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   background-color: var(--background-color);
   height: 100vh;
@@ -333,7 +334,7 @@ h4 {
 ul.album-projetos {
   display: flex;
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 15px;
   justify-content: center;
   align-items: center;
   padding: 20px;
