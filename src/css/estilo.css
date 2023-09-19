@@ -416,7 +416,7 @@ ul.album-projetos li#foto07 {
 }
 
 ul.album-projetos li#foto08 {
-  background-color: var(--background-color);
+  background: url(../imagens/pokedex.gif) no-repeat;
 }
 
 ul.album-projetos li#foto09 {
