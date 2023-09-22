@@ -420,6 +420,16 @@ ul.album-projetos li#foto08 {
 }
 
 ul.album-projetos li#foto09 {
+  background: url(../imagens/github-search.gif) no-repeat;
+}
+
+ul.album-projetos li#foto10 {
+  background-color: var(--background-color);
+}
+ul.album-projetos li#foto11 {
+  background-color: var(--background-color);
+}
+ul.album-projetos li#foto12 {
   background-color: var(--background-color);
 }
 
